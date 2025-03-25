@@ -20,4 +20,15 @@ public class Laptop extends Computer{
             System.out.println("No need to calibrate");
         }
     }
+
+    @Override
+    public void installOperatingSystem() {
+        System.out.println("Installing operating system on Laptop...");
+    }
+
+    @Override
+    public void printInfo() {
+        super.printInfo();
+        System.out.println("Track pad calibrated: " + trackPadCalibrated);
+    }
 }

@@ -34,4 +34,14 @@ public class Vehicle {
     public void setTollFee (double newV) {
       tollFee = newV;
     }
+
+    public void printInfo() {
+      System.out.println("License plate: " + licensePlate);
+      System.out.println("Toll fee: " + tollFee);
+      System.out.println("Passengers: " + passengers);
+    }
+
+    public void pickupMethod() {
+      System.out.println("Use a ridesharing app like Lyft or Uber");
+    }
   }

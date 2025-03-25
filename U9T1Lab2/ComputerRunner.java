@@ -125,5 +125,9 @@ public class ComputerRunner {
         System.out.println(computer1 instanceof Desktop);
         System.out.println(computer1 instanceof Laptop);
         System.out.println(computer1 instanceof Tablet);
+
+        GamingDesktop gd = new GamingDesktop(18, 200, "");
+        System.out.println(gd instanceof Desktop);
+        System.out.println(gd instanceof Computer);
     }
 }
